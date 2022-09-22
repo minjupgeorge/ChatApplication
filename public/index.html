@@ -8,25 +8,32 @@
     <link rel="stylesheet" href="style.css">
  </head>
  <body>
-<div id="root" class="header">
+<div class="header">
         <h1 >Chat Application</h2>
     <div class = channel>
-        <button id="addchannels" class="buttonchannel">Channels</button>
+        <button class="buttonchannel">Channels</button>
         <div>
             <u id="channels">
 
             </u>
         </div>
-        <button id="addmembers" class="buttonchannel">Members</button>
+        <button class="buttonchannel">Members</button>
         <div>
-        <u id="members">
+            <u id="members">
 
-        </u>
+            </u>
         </div>
     </div>
     <div class="chatdata">
-        <div id="chat">Messages</div>
-    
+        <div id="chat">Messages
+            
+        </div>
+    </div>
+    <div>
+       <form>
+            <textarea name="msg">Type Text here...</textarea>
+            <input  type="submit" name="msg" value="Submit">
+        </form>
     </div>
 </div>
     <script src="./index.js"></script>
