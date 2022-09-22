@@ -51,7 +51,8 @@ ul{
     text-align: Center;
     padding: 10px;
     width: 20%;
-    background-color:rgb(150, 163, 30);
+    background-color:rgb(50, 30, 163);
+    
   }
 
   textarea{
@@ -70,7 +71,7 @@ ul{
 
   
   input[type=submit]{
- margin-top:px;
+ margin-top:10px;
  margin-right:280px;
  padding: 10px  0px;
   width: 100px;
